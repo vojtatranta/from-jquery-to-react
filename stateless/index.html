@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <title>Super kurzy, kde se naučím něco, co mi k něčemu v životě bude, k..</title>
   <link rel="stylesheet" type="text/css" href="./style.css">
-  <script src="./main.js"></script>
 </head>
 <body>
 <div id="main">
-    <section class="todoapp">
+    <section class="todoapp" id="todoapp">
       <header class="header">
         <h1>todos</h1>
         <input class="new-todo" placeholder="What needs to be done?" autofocus="">
@@ -88,28 +87,7 @@
     <footer class="info">
       <p>Double-click to edit a todo</p>
     </footer>
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/template" id="item-template">
-      <div class="view">
-        <input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
-        <label><%- title %></label>
-        <button class="destroy"></button>
-      </div>
-      <input class="edit" value="<%- title %>">
-    </script>
-    <script type="text/template" id="stats-template">
-      <span class="todo-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'item' : 'items' %> left</span>
-      <ul class="filters">
-        <li>
-          <a class="selected" href="#/">All</a>
-        </li>
-        <li>
-          <a href="#/active">Active</a>
-        </li>
-        <li>
-          <a href="#/completed">Completed</a>
-        </li>
-      </ul>
-      <button class="clear-completed">Clear completed</button>
 </div>
+<script src="./main.js"></script>
 </body>
 </html>
