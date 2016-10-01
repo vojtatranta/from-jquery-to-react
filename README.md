@@ -5,6 +5,6 @@ frameworks and stateless architecture and there is even an example of how we mig
 
 ## Example codes
 
-- jQuery [src](./dom/main.js) [demo](/dom/index.html)
-- MVC [src](./mvc/main.js) [demo](/mvc/index.html)
-- Stateless [src](./stateless/main.js) [demo](/stateless/index.html)
+- jQuery [src](./dom/main.js) [demo](http://vojtatranta.github.io/from-jquery-to-react/dom/index.html)
+- MVC [src](./mvc/main.js) [demo](http://vojtatranta.github.io/from-jquery-to-react/mvc/index.html)
+- Stateless [src](./stateless/main.js) [demo](http://vojtatranta.github.io/from-jquery-to-react/stateless/index.html)
